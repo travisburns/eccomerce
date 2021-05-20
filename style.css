@@ -1,10 +1,16 @@
 .navbar-nav {
     margin-left: 230px;
-    
+    font-family: 'Lato';
 }
 
 .nav-item {
     margin-right: 20px;
+}
+
+
+.main-carousel {
+    padding-bottom: 70px;
+    font-family: 'Raleway';
 }
 
 .carousel-caption {
@@ -24,6 +30,7 @@
 
 .carousel-caption p {
     font-size: 10px;
+    font-family: 'Lato';
 }
 .carousel-caption .price {
     margin-top: 10px;
@@ -54,3 +61,111 @@
     margin-right: 10px;
 }
 
+.top-picks {
+    padding-bottom: 70px;
+    font-family: 'Raleway';
+}
+
+.top-picks-content {
+    padding-bottom: 70px;
+    font-family: 'Lato';
+}
+
+
+.image-gallery {
+    padding-bottom: 70px;
+}
+
+img {
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+img:hover{
+    opacity: 0.6;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+
+
+.img-text {
+    
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    padding: 150px;
+}
+
+.img-text:hover {
+    opacity: 1;
+}
+
+
+.testimonial-carousel {
+    padding-bottom: 70px;
+    font-family: 'Lato';
+}
+
+.testimonials-b {
+    background-image: url('img/testbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.process {
+    padding-bottom: 70px;
+    font-family: 'Raleway';
+}
+
+.process-step {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.process-header {
+    font-weight: 400;
+}
+
+.process-text {
+    
+}
+
+.showroom {
+    padding-bottom: 70px;
+}
+
+.show-content {
+    padding-top: 250px;
+    padding-left: 150px;
+    font-family: 'Raleway';
+}
+
+.show-img {
+    
+}
+
+.new-arrivals {
+    padding-bottom: 70px;
+    font-family: 'Raleway';
+}
+
+
+.newArrival-Content {
+    padding-bottom: 70px;
+    font-family: 'Raleway';
+}
+
+
+.footerClass {
+    
+    background-color: rgb(46, 45, 45);
+    color: white;
+    
+}
+
+.footerClass li {
+    list-style-type: none;
+}
