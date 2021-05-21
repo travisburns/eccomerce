@@ -1,3 +1,5 @@
+
+
 .navbar-nav {
     margin-left: 230px;
     font-family: 'Lato';
@@ -64,6 +66,15 @@
 .top-picks {
     padding-bottom: 70px;
     font-family: 'Raleway';
+}
+
+.top-items {
+    margin: 50px;
+}
+
+
+.slick-slider {
+    margin: 0 -15px;
 }
 
 .top-picks-content {
@@ -153,9 +164,27 @@ img:hover{
 }
 
 
+.arrival-flex {
+    display: flex;
+}
+
+.arrival-image{
+
+}
+
 .newArrival-Content {
     padding-bottom: 70px;
     font-family: 'Raleway';
+}
+
+
+.newArrival-gall {
+    padding: 80px;
+}
+
+
+.arrival-desc {
+    font-size: smaller;
 }
 
 
@@ -166,6 +195,15 @@ img:hover{
     
 }
 
+
+.footer-header {
+    font-family:'Monseratt';
+    font-weight: bold;
+    
+}
+
 .footerClass li {
     list-style-type: none;
+    font-family: "Raleway";
+    font-size: small;
 }
