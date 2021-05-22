@@ -15,12 +15,18 @@
     font-family: 'Raleway';
 }
 
-.carousel-caption {
-    margin-bottom: 300px;
-    margin-right: 1100px;
-    height: 15%;
-    width: 15%;
-}
+
+    .carousel-caption {
+        width: 550px;
+        left: 15%;
+        top: 50% !important;
+        transform: translateY(-50%);
+        text-align: left;
+        bottom: initial;
+        }
+
+
+
 
 .carousel-caption h3 {
     font-size: 40px;
@@ -33,35 +39,18 @@
 .carousel-caption p {
     font-size: 10px;
     font-family: 'Lato';
+    
 }
+
+.carouselText {
+    width: 90% !important;
+}
+
 .carousel-caption .price {
-    margin-top: 10px;
-    font-size: 15px;
+    
 }
 
-.blue {
-    background-color: blue;
-    border-radius: 30px;
-    width: 1%;
-    height: 20px;
-    margin-right: 10px;
-}
 
-.red {
-    background-color: red;
-    border-radius: 30px;
-    width: 1%;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.green {
-    background-color: green;
-    border-radius: 30px;
-    width: 1%;
-    height: 20px;
-    margin-right: 10px;
-}
 
 .top-picks {
     padding-bottom: 70px;
